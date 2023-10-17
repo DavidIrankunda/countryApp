@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>countries flags</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-content">
+        <h2 class="title"><a href="/">Countries flags</a></h2>
+        <p class="theme-changer">
+          <i class="fa-regular fa-moon"></i> &nbsp;&nbsp;Dark Mode
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div class="search-filter-container">
+        <div class="search-container">
+          <i class="fa-solid"></i>
+          <input type="text" placeholder="Search for a country" />
+        </div>
+        <select class="filter-by-region">
+          <option hidden>Filter-By Region</option>
+          <option value="Africa">Africa</option>
+          <option value="America">America</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+      <div class="countries-container"></div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
